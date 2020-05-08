@@ -1,0 +1,34 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#time {
+	font-size: 13ex;
+	vertical-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.stick {
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	bottom: 40%;
+}
+
+#searchInput {
+	margin-top: 2ex;
+	margin-left: 2ex;
+	padding-left: 1ex;
+}
+
+#quote {
+	position: absolute;
+	bottom: 1ex;
+	left: 40%;
+	right: 40%;
+	text-align: center;
+}
