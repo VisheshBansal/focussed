@@ -3,6 +3,9 @@ body {
 	height: 100%;
 	background-image: url("https://source.unsplash.com/featured/?nature,earth,mountains,valleys");
 	color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #time {
@@ -30,13 +33,10 @@ p {
 	margin-top: 2ex;
 	margin-left: 2ex;
 	padding-left: 1ex;
-	border-radius:10px;
-	background-color: rgba(255,255,255,0.2);
-	border:none;
-	box-shadow: 1px 1px 1px 1px #fff;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: #eee;
+	border-radius:5px;
+	background-color: rgba(255,255,255,1);
+	border:1px solid #eaeaea;
+	color: #000;
 
 }
 
