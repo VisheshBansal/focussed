@@ -5,6 +5,15 @@ function time() {
   //timeNow.textContent = h + ":" + m + " "+ format;
 }
 
+fetch("https://type.fit/api/quotes")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    document.getElementById('quote').innerHTML=data[Math.floor(Math.random() * data.length)].text;    
+  });
+
+
 var searchBox = document.getElementById('searchInput');
 
 searchBox.addEventListener('keyup', (e) => {
