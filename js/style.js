@@ -19,7 +19,7 @@ var searchBox = document.getElementById('searchInput');
 searchBox.addEventListener('keyup', (e) => {
   if (e.key == "Enter"){
     console.log(e.target.value);
-    window.open("https://www.google.com/search?q="+e.target.value, "_blank");
+    window.open("https://www.google.com/search?q="+e.target.value);
   }
 });
 

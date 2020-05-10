@@ -3,10 +3,13 @@ body {
 	height: 100%;
 	background-image: url("https://source.unsplash.com/featured/1080x1080");
 	color: #fff;
+	z-index: -1;
 	background-position: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-shadow: 0 1px 5px rgba(0,0,0,.1);
 }
 
 #time {
@@ -14,6 +17,7 @@ body {
 	font-size: 13ex;
 	vertical-align: center;
 	color: #fff;
+	letter-spacing: -2px;
 }
 
 p {
@@ -31,13 +35,24 @@ p {
 }
 
 #searchInput {
-	margin-top: 2ex;
-	margin-left: 2ex;
-	padding-left: 1ex;
-	border-radius:5px;
-	background-color: rgba(255,255,255,1);
-	border:1px solid #eaeaea;
-	color: #000;
+	position: absolute;
+	height: 100%;
+	padding: 0 32px 0 26px;
+	z-index: 2;
+	background: 0 0;
+	border: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	line-height: 20px;
+	outline: 0;
+	margin-top: 17px;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid #fff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
 
 }
 
@@ -48,10 +63,15 @@ p {
 
 #quote {
 	position: absolute;
-	bottom: 2ex;
-	left: 40%;
-	right: 40%;
-	font-size: 1.5ex;
+	bottom: 0.5ex;
+	margin-left: 10%;
+	text-align: center;
+	margin-right: 10%;
+	font-size: 2ex;
+	font-family: "Open Sans";
+	font-style: italic;
+	display: inline-block;
 }
+
 
 
